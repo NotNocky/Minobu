@@ -1,0 +1,31 @@
+* {
+  background-color: #1d1f21;
+  text-color: #f0f0f0;
+  width: 350px;
+}
+
+window {
+  padding: 3 3;
+  background-color: #1d1f21;
+}
+
+prompt {
+  enabled: false;
+}
+
+textbox {
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+element {
+  padding: 16px;
+}
+
+element selected {
+  background-color: #ac8aac;
+  border: 7 7 7 7;
+}

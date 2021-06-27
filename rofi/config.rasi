@@ -1,0 +1,10 @@
+configuration {
+theme: "mytheme";
+modi: "drun";
+lines: 8;
+columns: 1;
+font: "SF Pro Display 14";
+hide-scrollbar: true;
+drun-display-format: "{name}";
+cycle: false;
+}
