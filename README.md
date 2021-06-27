@@ -1,6 +1,6 @@
 # Minobu
 
-> colors from https://github.com/pradyungn/Mountain and https://github.com/ChrisKempson/Tomorrow-Theme
+> colors from [Mountain](https://github.com/pradyungn/Mountain) and [Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme)
 
 
 This is just my own customizations based off these colors and will be using a purple accent heavily ( i like purple ).
