@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name           Minobu
+@namespace      https://github.com/NotNocky/Minobu
+@version        0.1.1
+@description    Minobu discord theme
+@author         NotNocky
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+    :root {
+        --background-primary: #1d1f21;
+        --background-secondary: #1d1f21;
+        --background-tertiary: #1d1f21;
+    }
+    [aria-label="Servers sidebar"] {
+        background-color: #1d1f21;
+    }
+    [aria-label="User area"] {
+        background-color: #1d1f21;
+    }
+    /* message box */
+    .inner-MADQqc {
+        background-color: #26292c;
+    }
+    /* friend list etc */
+    .tabBody-3YRQ8W {
+        background-color: #1d1f21;
+    }
+    /* hide side bar items (discovery the spacer and client download) */
+    ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:nth-last-child(2),
+    ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:nth-last-child(3),
+    ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:nth-last-child(4) {
+    display: none;
+    }
+    
+    /* hides blocked msg */
+    .groupStart-23k01U [role="group"] {
+        display: none;
+    }
+    /* hide video call button on unsupported browsers */
+    div[aria-label="Browser Not Supported"] {
+        display: none;
+    }
+    /* hide tool bar help button */
+    .toolbar-1t6TWx a:last-child {
+        display: none;
+    }
+    /* hide nitro tab */
+    #private-channels-2 {
+        display: none;
+    }
+    /* hide discovery tab */
+    #private-channels-1 {
+        display: none;
+    }
+    /* hide nitro gift icon */
+    button[aria-label="Send a gift"] {
+        display: none;
+    }
+    
+    
+}
