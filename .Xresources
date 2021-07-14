@@ -1,0 +1,42 @@
+XTerm.vt100.faceName:	SF Mono:style=Regular:size=11:antialias=true, Liberation Mono:style=Regular
+XTerm*internalBorder: 12
+XTerm*CursorUnderLine: true
+Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! special
+*.background:   #1d1f21
+*.foreground:   #f0f0f0
+*.cursorColor:  #f0f0f0
+
+! black
+*.color0:       #262626
+*.color8:       #4c4c4c
+
+! red
+*.color1:       #ac8a8c
+*.color9:       #c49ea0
+
+! green
+*.color2:       #8aac8b
+*.color10:      #9ec49f
+
+! yellow
+*.color3:       #aca98a
+*.color11:      #c4c19e
+
+! blue
+*.color4:       #8f8aac
+*.color12:      #a39ec4
+
+! magenta
+*.color5:       #ac8aac
+*.color13:      #c49ec4
+
+! cyan
+*.color6:       #8aabac
+*.color14:      #9ec3c4
+
+! white
+*.color7:       #e7e7e7
+*.color15:      #f5f5f5
