@@ -1,9 +1,3 @@
-XTerm.vt100.faceName:	SF Mono:style=Regular:size=11:antialias=true, Liberation Mono:style=Regular
-XTerm*internalBorder: 12
-XTerm*CursorUnderLine: true
-Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
-Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
-
 ! special
 *.background:   #1d1f21
 *.foreground:   #f0f0f0
