@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Minobu
 @namespace      https://github.com/NotNocky/Minobu
-@version        0.1.1
+@version        0.2.3
 @description    Minobu discord theme
-@author         NotNocky
+@author         NotNocky      
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
@@ -11,6 +11,16 @@
         --background-primary: #1d1f21;
         --background-secondary: #1d1f21;
         --background-tertiary: #1d1f21;
+    }
+    * {
+        scrollbar-color: #26292c #1d1f21 !important;
+    }
+    .selected-bZ3Lue {
+        color: #ac8aac;
+    }
+    /* search results */
+    .resultsGroup-r_nuzN {
+        background-color: #1d1f21;
     }
     [aria-label="Servers sidebar"] {
         background-color: #1d1f21;
@@ -33,10 +43,6 @@
     display: none;
     }
     
-    /* hides blocked msg */
-    .groupStart-23k01U [role="group"] {
-        display: none;
-    }
     /* hide video call button on unsupported browsers */
     div[aria-label="Browser Not Supported"] {
         display: none;
@@ -57,6 +63,31 @@
     button[aria-label="Send a gift"] {
         display: none;
     }
-    
-    
+    /* hide sticker icon */
+    button[aria-label="Open sticker picker"] {
+        display: none;
+    }
+    /* figure it out. */
+    button[aria-label="Open GIF picker"] {
+        display: none;
+    }
+    /* remove werid gradiant on search results */
+    [id^="search-result"]::after {
+        display:none;
+    }
+    /* move typing above text area */
+    main[class*="chatContent"] form[class*="form"] div[class*="typing"][class*="base"] {
+        bottom: unset;
+        /* same as scrollerSpacer???? */
+        top: 6px;
+    }
+    div[class*="channelTextArea"] {
+        /* space for typing to appear */
+        margin-top: 32px;
+        /* align with icons on left */
+        margin-bottom: 6px;
+    }
+    div[class*="scrollerSpacer"] {
+        height: 6px;
+    }
 }
