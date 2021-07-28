@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Minobu
 @namespace      https://github.com/NotNocky/Minobu
-@version        0.2.3
+@version        0.2.4
 @description    Minobu discord theme
 @author         NotNocky      
 ==/UserStyle== */
@@ -11,9 +11,10 @@
         --background-primary: #1d1f21;
         --background-secondary: #1d1f21;
         --background-tertiary: #1d1f21;
+        --elevation-low: unset;
     }
     * {
-        scrollbar-color: #26292c #1d1f21 !important;
+        scrollbar-color: #26292c #00000000 !important;
     }
     .selected-bZ3Lue {
         color: #ac8aac;
