@@ -1,5 +1,6 @@
 # show case
-![image](https://user-images.githubusercontent.com/65059771/123708478-9bd96180-d8bf-11eb-9bc7-a82af7fd4217.png)
+![image](https://user-images.githubusercontent.com/65059771/127400048-d68ee67f-ee96-41c6-80b1-86f6db852d20.png)
+
 
 # install
 [![button](https://img.shields.io/badge/install%20directly%20with-stylus-9cf)](https://github.com/NotNocky/Minobu/raw/main/Discord/DiscordMinobu.user.css)
